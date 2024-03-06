@@ -70,6 +70,10 @@ db:
     retries: 5
 ```
 
+### Création des Fichiers de Variables d'Environnement 🔑
+
+Pour configurer votre environnement de manière personnalisée, veuillez créer un fichier `.env` dans le répertoire de chaque service, en vous basant sur le contenu des fichiers `.env.example` fournis. Assurez-vous de remplacer les valeurs exemples par vos propres valeurs selon les besoins de votre configuration.
+
 ### Lancer la Migration avec Prisma 🔄
 
 Ce projet utilise [Prisma](https://www.prisma.io/docs/) pour la gestion de la base de données, offrant une approche moderne à l'interaction avec la base de données via un ORM. Vous êtes libre d'utiliser l'ORM de votre choix, mais si vous optez pour Prisma, suivez les étapes ci-dessous pour synchroniser votre schéma avec la base de données.
@@ -84,9 +88,6 @@ Cela créera un fichier de migration dans le répertoire `./prisma/migrations`. 
 
 Pour les interactions avec la base de données, une instance Singleton de Prisma est mise à disposition dans le répertoire `./src/utils/db.ts`. Cette approche garantit que l'instance de Prisma est unique et réutilisable à travers toute l'application, optimisant ainsi les performances et l'accès à la base de données.
 
-### Création des Fichiers de Variables d'Environnement 🔑
-
-Pour configurer votre environnement de manière personnalisée, veuillez créer un fichier `.env` dans le répertoire de chaque service, en vous basant sur le contenu des fichiers `.env.example` fournis. Assurez-vous de remplacer les valeurs exemples par vos propres valeurs selon les besoins de votre configuration.
 
 ### Création de l'Image Docker et Démarrage des Conteneurs 📦
 
