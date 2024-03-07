@@ -9,8 +9,6 @@ Ce template sert de base solide pour les projets utilisant Next.js dans un envir
 
 - [Prérequis](#prérequis-)
 - [Installation](#installation-)
-- [Prérequis](#prérequis-)
-- [Installation](#installation-)
   - [Dépendances Next.js](#installation-des-dépendances)
   - [Configuration PostgreSQL](#configuration-de-postgresql-avec-docker-)
   - [Variables d'Environnement](#création-des-fichiers-de-variables-denvironnement-)
